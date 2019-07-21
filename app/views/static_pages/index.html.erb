@@ -1,0 +1,8 @@
+<h1>Build Your Pizza!</h1>
+
+<%= simple_form_for @pizza do |f| %>
+  <%= f.input :name %>
+  <%= f.input :toppings %>
+  <br />
+  <%= f.submit 'Create', class: 'btn btn-danger' %>
+<% end %>
